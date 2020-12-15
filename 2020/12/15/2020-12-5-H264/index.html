@@ -87,7 +87,7 @@
 <meta property="og:description" content="出发点鉴于有可能会去字节跳动做视频编解码传输工作，因此重新看了H.264的编码器结构，H.265仍然是基于H.264的，框架上没有根本性改变，因此这种基础知识还是非常有必要的。这里有一些自己看完之后的一些自我总结。">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://yongqgui.github.io/Blog/2020/12/15/2020-12-5-H264/H264Structure.jpg">
-<meta property="og:updated_time" content="2020-12-15T09:19:13.404Z">
+<meta property="og:updated_time" content="2020-12-15T09:21:35.458Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="数字编码器H.264结构学习">
 <meta name="twitter:description" content="出发点鉴于有可能会去字节跳动做视频编解码传输工作，因此重新看了H.264的编码器结构，H.265仍然是基于H.264的，框架上没有根本性改变，因此这种基础知识还是非常有必要的。这里有一些自己看完之后的一些自我总结。">
@@ -352,7 +352,7 @@
 <li>帧间编码：因为视频帧之间存在很大相关性，只需要记录前后帧之间的变化即可，这里主要用的是运动估计和运动补偿。运动估计本质上是像素块的估计，用像素块做预测。运动补偿是为了实现无损压缩，是真实的帧减去预测的帧。</li>
 <li>进一步去除各帧内的冗余，这些冗余一样通过空间转化、量化和熵编码进行去除。</li>
 </ol>
-<h3 id="参考内容"><a href="#参考内容" class="headerlink" title="参考内容"></a>参考内容</h3><p>[1] “视频的时代终结了吗？” (<a href="https://www.cnblogs.com/OMG-Team/archive/2011/11/03/2234917.html" target="_blank" rel="noopener">https://www.cnblogs.com/OMG-Team/archive/2011/11/03/2234917.html</a>)</p>
+<h3 id="参考内容"><a href="#参考内容" class="headerlink" title="参考内容"></a>参考内容</h3><p>[1] “视频的时代终结了吗？” <a href="https://www.cnblogs.com/OMG-Team/archive/2011/11/03/2234917.html" target="_blank" rel="noopener">https://www.cnblogs.com/OMG-Team/archive/2011/11/03/2234917.html</a></p>
 
       
     </div>
@@ -401,8 +401,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/Blog/2020/05/23/2020-05-23/" rel="next" title="2020-05-23">
-                <i class="fa fa-chevron-left"></i> 2020-05-23
+              <a href="/Blog/2020/05/23/2020-05-23/" rel="next" title="杂思杂念">
+                <i class="fa fa-chevron-left"></i> 杂思杂念
               </a>
             
           </div>
